@@ -363,7 +363,7 @@ coroutine.wrap(GRIR_fake_script)()
             local Checked = Instance.new("ImageLabel")
             value = value or false
 
-            Toggle.Name = "Toggle"
+            Toggle.Name = title
             Toggle.Parent = Page
             Toggle.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
             Toggle.Size = UDim2.new(1, -6, 0, 34)
