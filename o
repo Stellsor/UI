@@ -363,7 +363,7 @@ coroutine.wrap(GRIR_fake_script)()
             local Checked = Instance.new("ImageLabel")
             value = value or false
 
-            Toggle.Name = title
+            Toggle.Name = "Toggle"
             Toggle.Parent = Page
             Toggle.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
             Toggle.Size = UDim2.new(1, -6, 0, 34)
@@ -383,7 +383,7 @@ coroutine.wrap(GRIR_fake_script)()
             Title.Position = UDim2.new(0, 8, 0, 0)
             Title.Size = UDim2.new(1, -6, 1, 0)
             Title.Font = Enum.Font.Gotham
-            Title.Text = "Toggle"
+            Title.Text = title
             Title.TextColor3 = Color3.fromRGB(255, 255, 255)
             Title.TextSize = 14.000
             Title.TextXAlignment = Enum.TextXAlignment.Left
